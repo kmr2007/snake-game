@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scores-container">
+        <div class="scores-cvs1"><p id="score"></p></div>
+        <div class="scores-cvs2"><p id="high-score"></p></div>
+      </div>
+      <p>
+        <canvas width="400" height="400" id="cvs"></canvas>
+      </p>
+      <div class="game-over hide">
+        <div class="message">Game Over!</div>
+        <div class="game-over-score">
+          <div class="go-scores">Score: <span id="go-score"></span></div>
+          <div class="go-scores">
+            High Score: <span id="go-highscore"></span>
+          </div>
+        </div>
+
+        <div class="play-again" onclick="window.location.reload();">
+          Play Again
+        </div>
+      </div>
+    </div>
+    <div class="difficulty-btn-container">
+      <button class="difficulty-btns active" id="easy-btn">Easy</button>
+      <button class="difficulty-btns" id="normal-btn">Normal</button>
+      <button class="difficulty-btns" id="hard-btn">Hard</button>
+    </div>
+  </body>
+</html>
