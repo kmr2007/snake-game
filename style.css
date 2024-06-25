@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: min-content;
+  margin: auto;
+}
+
+h1 {
+  font-family: Pixelify Sans;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-family: Pixelify Sans;
+  font-size: 1.5rem;
+  color: white;
+}
+
+canvas {
+  border: 2px solid white;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
